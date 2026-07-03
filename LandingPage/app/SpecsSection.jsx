@@ -6,7 +6,7 @@ export default function SpecsSection() {
     { label: 'Màn hình', value: '6.3 inch Super Retina XDR (1206 x 2622 Pixels), 120Hz.' },
     { label: 'Vi xử lý', value: 'A19 Pro (Apple Silicon 3nm).' },
     { label: 'Camera sau', value: 'Chính và phụ 48MP, Night Mode, Gắn thẻ địa lý (Geotagging).' },
-    { label: 'Camera trước', value: '18MP TrueDepth, Slow Motion.' },
+    { label: 'Camera trước', value: '18MP, TrueDepth, Slow Motion.' },
     { label: 'Dung lượng & Lưu trữ', value: '256GB, 512GB, 1TB.' },
     { label: 'Pin & Sạc', value: '31 giờ, hỗ trợ sạc nhanh tối đa 40W, MagSafe, sạc không dây, tiết kiệm pin.' },
   ];
