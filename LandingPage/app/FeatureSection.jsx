@@ -38,7 +38,7 @@ export default function FeatureSection() {
 
                     </div>
 
-                    {/* Ô Hiệu năng (1 cột) */}
+                    
                     <div className="bg-[#000000] rounded-[2rem] border border-gray-800 flex flex-col justify-between overflow-hidden relative group hover:border-gray-600 transition-colors duration-500 min-h-[400px] sm:min-h-[450px]">
 
                         {/* 1. Lớp chữ (Padding được chuyển vào đây thay vì bọc ngoài thẻ div to) */}

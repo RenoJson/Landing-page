@@ -10,10 +10,10 @@ export default function FormSection() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Sử dụng Regex để kiểm tra định dạng email chuẩn (ví dụ: abc@xy.xyz)
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    // Kiểm tra nếu rỗng HOẶC không khớp với định dạng Regex
+    
     if (!email || !emailRegex.test(email)) {
       toast.error('Vui lòng nhập địa chỉ email hợp lệ (vd: abc@xy.xyz)!');
       return;
@@ -24,10 +24,10 @@ export default function FormSection() {
     try {
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
-      // Toast Thông báo thành công
+     
       toast.success('Đăng ký thành công! Cảm ơn bạn.');
 
-      // Xóa trắng form sau khi gửi
+      
       setEmail('');
     } catch (error) {
       toast.error('Đã xảy ra lỗi. Vui lòng thử lại sau!');
