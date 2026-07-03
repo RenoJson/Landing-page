@@ -13,7 +13,7 @@ export default function Home() {
       
       {/* Footer nhỏ gọn */}
       <footer className="bg-black py-8 text-center text-gray-600 text-sm border-t border-gray-900">
-        <p>© 2026 Smartphone Pro Max. All rights reserved.</p>
+        <p>Bản quyền © Apple Inc. 2026 Bảo lưu mọi quyền.</p>
       </footer>
     </main>
   );
