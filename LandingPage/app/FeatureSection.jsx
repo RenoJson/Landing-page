@@ -29,7 +29,7 @@ export default function FeatureSection() {
 
                             <Image
                                 src="/camera1_preview.jpg"
-                                alt="Cận cảnh cụm Camera 200MP"
+                                alt="Cận cảnh cụm Camera 48MP trên iPhone 17 Pro"
                                 fill
                                 sizes="(max-width: 768px) 100vw, 66vw"
                                 className="object-cover object-top z-0"
